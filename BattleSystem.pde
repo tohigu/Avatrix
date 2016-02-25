@@ -115,6 +115,7 @@ class BattleSystem implements BattleSystemConstants {
 
 	private void startBattle() {
 		delay(1000);
+
 		if (players[0].getSkill() < players[1].getSkill()) {
 			attackingPlayer = players[1];
 			defendingPlayer = players[0];
